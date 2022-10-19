@@ -1,0 +1,12 @@
+name: ezomero-basic
+channels:
+  - ome
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - omero-py
+  - numpy
+  - pip
+  - pip:
+    - ezomero
